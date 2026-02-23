@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background: #0a2540;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.login-btn {
+    padding: 8px 15px;
+    background: #00c6ff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(to right, #0a2540, #1e3c72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    margin: 20px 0;
+    max-width: 600px;
+}
+
+.hero button {
+    padding: 12px 25px;
+    background: #00c6ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.features {
+    padding: 100px 60px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.pricing {
+    background: #f9fafc;
+    padding: 80px;
+    text-align: center;
+}
+
+.pricing-card {
+    background: white;
+    padding: 40px;
+    width: 250px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.price {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.contact {
+    padding: 60px;
+    background: #0a2540;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #061624;
+    color: white;
+}
